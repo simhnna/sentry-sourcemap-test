@@ -1,0 +1,7 @@
+[auth]
+token=408c49491062b4956344349dbf65ad1a55e2f49bcfda7ab0df585bd19dcd411f
+
+[defaults]
+url=https://sentry.io
+org=simon-hanna
+project=sentry-sourcemap-test
