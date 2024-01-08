@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "ts-node src/main.ts",
+    "start:prod": "node dist/src/main.js",
     "build": "tsc -p tsconfig.app.json",
     "inject": "sentry-cli sourcemaps inject dist",
     "push": "sentry-cli sourcemaps upload dist",
